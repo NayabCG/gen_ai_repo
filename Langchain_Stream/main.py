@@ -7,6 +7,6 @@ model = ChatOpenAI(
 )
 # Stream the response
 for chunk in model.stream(
-    "Explain AI in detail"
+    "Explain AI in detail with 100 words"
 ):
     print(chunk.content,end='',flush=True) # Print each chunk as it's received

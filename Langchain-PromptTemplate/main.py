@@ -69,7 +69,7 @@ customer_data = {
 
 # Step 5: Format the prompt using dynamic data
 formatted_prompt = prompt_template.invoke(customer_data)
-
+print("Formatted Prompt:\n", formatted_prompt)
 # Step 6: Send formatted prompt directly to GPT-5.5
 response = model.invoke(formatted_prompt)
 

@@ -8,7 +8,7 @@ load_dotenv()
 model=ChatOpenAI(
     model='gpt-5.5',
     temperature=0.3,
-    max_completion_tokens=500,
+    max_completion_tokens=1500,
     api_key=os.getenv('OPENAI_API_KEY')
 )
 while True:

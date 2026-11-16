@@ -6,7 +6,7 @@ load_dotenv()
 model=ChatOpenAI(
     model='gpt-5.5',
     temperature=0.3,
-    api_key=os.getenv('OPENAI_API_KEY')
+    # api_key=os.getenv('OPENAI_API_KEY')
 )
 # Invoke the model with a prompt
 response=model.invoke('Who is India PM,short answer')
