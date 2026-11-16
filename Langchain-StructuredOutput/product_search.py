@@ -35,3 +35,4 @@ user_input = input("Enter your product requirements: ")
 response = structured_model.invoke(user_input)
 
 print(response)
+print(f"Category: {response.category}")

@@ -14,8 +14,9 @@ model=ChatOpenAI(
     openai_api_key=os.environ.get('OPENAI_API_KEY')
 )
 parser=StrOutputParser()
+# runnable
 def add_prefix(text:str)->str:
-    return 'AI Explanation: '+text
+    return 'AI Explanation: '+text.upper()
 prefix_runnable=RunnableLambda(add_prefix)
 chain=(
     prompt | model | parser | prefix_runnable
