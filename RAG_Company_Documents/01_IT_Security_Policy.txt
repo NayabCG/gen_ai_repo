@@ -1,0 +1,31 @@
+IT Security and Acceptable Use Policy
+
+Document ID: IT-POL-001 | Version: 1.2 | Effective date: 1 April 2026
+Company: BluePeak Technologies Pvt. Ltd. (fictional training company)
+
+1. Purpose and scope
+This policy explains how employees, contractors and approved vendors must use company devices, accounts, networks and information. It applies to all BluePeak offices and remote-working locations.
+
+2. Company devices
+Employees must use company-issued laptops for business activities. Devices must have screen lock enabled with a maximum idle timeout of five minutes. Employees must install operating-system and security updates within seven calendar days of notification. Users must not disable endpoint protection, firewall settings or device-management software.
+
+3. Passwords and authentication
+Passwords must contain at least 14 characters and must not be reused across company and personal services. Multi-factor authentication (MFA) is mandatory for email, VPN, source-code repositories and cloud platforms. Passwords or one-time codes must never be shared with colleagues or support personnel. Suspected credential exposure must be reported to the IT Service Desk immediately.
+
+4. Data classification
+Public: approved for unrestricted external distribution.
+Internal: routine business information; share only with employees and approved partners.
+Confidential: customer records, employee information, contracts, financial reports and non-public product plans. Access must be limited to authorized personnel.
+Restricted: credentials, encryption keys, payment-card data and highly sensitive security information. Store only in approved vaults or systems with explicit access controls.
+
+5. Sharing and storage
+Confidential and Restricted information must not be uploaded to personal email, personal cloud drives or unapproved AI tools. External sharing requires manager approval and use of an approved secure channel. Removable storage is blocked by default; exceptions require IT Security approval.
+
+6. Remote work and public networks
+Employees working remotely must connect through the company VPN when accessing internal systems. Public Wi-Fi may be used only with the VPN enabled. Devices must not be left unattended in public places.
+
+7. Security incidents
+Report lost devices, phishing messages, accidental disclosure, malware alerts or suspicious account activity to security@bluepeak.example or the IT Service Desk within one hour of discovery. Do not delete evidence or investigate suspected malware independently.
+
+8. Exceptions and consequences
+Exceptions require written approval from the Head of IT Security and must include an expiry date. Policy violations may result in access suspension and disciplinary action, subject to company procedures.

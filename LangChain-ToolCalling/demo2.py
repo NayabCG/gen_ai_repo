@@ -62,9 +62,7 @@ messages=[
         'role':'user',
         'content':(
             'Calculate the total cost of '
-            '5 items at 1000 each and '
-            'then calculate a 10% discount '
-            'finally show the Total amount after discount'
+            '5 items at 1000 each '
         )
     }
 ]

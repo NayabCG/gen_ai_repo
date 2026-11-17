@@ -1,0 +1,32 @@
+RAG PRACTICE PROMPTS — BLUEPEAK TECHNOLOGIES
+All documents describe a fictional company and are intended for classroom exercises.
+Use the HR policy document already provided as an additional source.
+
+BASIC RETRIEVAL
+1. What is the maximum idle screen-lock timeout for company laptops? Cite the document and section.
+2. How many working days before joining should the manager submit a role-based access request?
+3. What is the daily domestic meal reimbursement limit?
+4. Who must approve a production release?
+5. How many quotations are required for a purchase above INR 1,00,000?
+
+MULTI-DOCUMENT QUESTIONS
+6. An employee is joining next Monday. List the key responsibilities of HR, IT and the hiring manager before and on Day 1.
+7. An employee travels domestically, books a hotel in a Tier-1 city for INR 6,800 per night, and submits the claim 12 days after returning. Identify each policy issue and the required approval or action.
+8. A developer wants to upload a customer spreadsheet to a personal cloud drive to test a feature. Explain whether this is allowed and what safer approach the policy supports.
+9. A vendor will process customer information. What must happen before the vendor receives system or data access?
+10. A production release causes a critical user journey to fail. What should the team do, who should be notified, and what follow-up is required?
+
+SCENARIO / REASONING
+11. A staff member receives a suspicious MFA approval request and also notices an unfamiliar login. What immediate steps are required?
+12. A team wants to buy software costing INR 78,000. Describe the quotation and approval process, and explain what must happen before the vendor starts work.
+13. A developer commits an API key to a feature branch. Identify the policy breach and the appropriate security response. Do not invent remediation steps not stated in the documents.
+14. A claim is INR 52,000 and contains a missing receipt for an expense of INR 900. Who approves the claim, and what additional evidence is needed?
+15. A hotfix is needed urgently outside the normal release process. What approvals, tests and post-release documentation are required?
+
+RAG QUALITY / GROUNDEDNESS TESTS
+16. Which policy specifies the exact password length? Answer with a citation.
+17. Do the documents state how many annual casual leaves an employee receives? If not, say that the provided documents do not contain this information.
+18. Compare the approval requirements for a purchase of INR 20,000, INR 75,000 and INR 1,50,000.
+19. Find all deadlines expressed in hours, calendar days or working days across the documents.
+20. Answer this question using only the supplied documents: Can employees use an unapproved public generative-AI website with confidential customer data? Quote the relevant rule briefly and cite the source.
+
