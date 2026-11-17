@@ -27,7 +27,8 @@ chunks = text_splitter.split_documents([document])
 
 # Initialize embedding model
 embeddings = OpenAIEmbeddings(
-    model="text-embedding-3-small"
+    model="text-embedding-3-small",
+    # api_key=os.getenv("OPENAI_API_KEY")
 )
 
 # Generate embedding for first chunk

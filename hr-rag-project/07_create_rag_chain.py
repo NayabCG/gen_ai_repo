@@ -9,7 +9,7 @@ load_dotenv()
 
 # Initialize LLM
 llm = ChatOpenAI(
-    model="gpt-4.1-nano",
+    model="gpt-5.5",
     temperature=0
 )
 
