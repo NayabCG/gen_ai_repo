@@ -14,14 +14,31 @@ This repository is a fork of the original project maintained by [Python-AI008](h
 ## Project Structure
 
 ```text
+# Generative AI Repository
+
+A practical collection of Python examples covering LangChain, OpenAI, prompt templates, agents, chains, structured output, streaming, and retrieval-augmented generation (RAG).
+
+This repository is maintained through [Python-AI008/gen_ai_repo](https://github.com/Python-AI008/gen_ai_repo).
+
+## Repository Structure
+
+```text
 gen_ai_repo/
-├── LangChain-OpenAI-Demo/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── .env.example
+├── Agents/
+├── Assignments/
+├── LangChain-OpenAI/
+├── LangChain-ToolCalling/
+├── Langchain-Chains/
+├── Langchain-ChatApp/
+├── Langchain-PromptTemplate/
+├── Langchain-StructuredOutput/
+├── Langchain_Stream/
+├── Notes/
+├── RAG_Company_Documents/
+├── hr-rag-project/
+├── hr-rag-streamlit/
 ├── .gitignore
-├── README.md
-└── ...
+└── README.md
 ```
 
 ## Prerequisites
@@ -37,7 +54,7 @@ Before running the project, make sure you have:
 1. Clone your fork:
 
 ```bash
-git clone https://github.com/NayabCG/gen_ai_repo.git
+git clone https://github.com/Python-AI008/gen_ai_repo.git
 cd gen_ai_repo
 ```
 
