@@ -1,0 +1,31 @@
+Software Development and Release Procedure
+
+Document ID: ENG-SOP-007 | Version: 2.0 | Effective date: 1 July 2026
+Company: BluePeak Technologies Pvt. Ltd. (fictional training company)
+
+1. Purpose and scope
+This procedure defines the minimum engineering workflow for product changes, code review, testing and production releases.
+
+2. Work intake and planning
+Every change must be linked to an approved work item in the engineering tracker. The work item must include business context, acceptance criteria, priority and an owner. Production hotfixes may use an expedited work item but must be documented by the next business day.
+
+3. Branching and code changes
+Create a feature branch from the current main branch. Branch names should include the work-item ID and a short description. Developers must not commit directly to main. Commits should be small and descriptive. Secrets, credentials and production data must never be committed to source control.
+
+4. Pull requests and review
+All changes require a pull request and at least one approval from another engineer. Changes affecting authentication, authorization, encryption or personal data require review by a designated senior engineer. Automated build and test checks must pass before merge. Review comments must be resolved or explicitly documented.
+
+5. Testing requirements
+Developers must add or update unit tests for changed business logic. API changes must include appropriate integration tests. The QA owner performs regression testing in the staging environment. Critical and high-severity defects block release. Test evidence must be linked to the release record.
+
+6. Release approval
+The release owner prepares release notes, deployment steps, rollback steps and a list of included work items. The Product Owner confirms business acceptance. The Engineering Lead approves technical readiness. The Operations on-call representative confirms monitoring and rollback readiness. Production deployment requires all three approvals.
+
+7. Deployment and verification
+Deploy through the approved CI/CD pipeline; manual production changes are prohibited except under the documented emergency process. After deployment, verify health checks, key user journeys, error rates and application logs. The release owner records the deployment time and outcome.
+
+8. Rollback and incident handling
+Rollback must begin if a critical user journey fails, data integrity is at risk, or error rates exceed the release threshold agreed in the deployment plan for more than ten minutes. Notify the incident channel and follow the incident-management process. A post-release review is required within two working days for failed releases.
+
+9. Emergency hotfix
+An emergency hotfix requires approval from the Engineering Lead and Incident Commander. It must still pass automated build and essential tests. A full retrospective and missing documentation must be completed within two working days.

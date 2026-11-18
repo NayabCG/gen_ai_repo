@@ -13,6 +13,7 @@ model=ChatOpenAI(
     temperature=0.3,
     openai_api_key=os.environ.get('OPENAI_API_KEY')
 )
+
 # create a chain that combines the prompt and the model
 chain=prompt|model
 result=chain.invoke({

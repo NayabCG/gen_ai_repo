@@ -1,0 +1,25 @@
+[project]
+name = "hr-rag-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "santuparsi", email = "santuparsi@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "faiss-cpu>=1.16.0",
+    "langchain==1.3.18",
+    "langchain-community>=0.4.2",
+    "langchain-openai==1.7.2",
+    "langchain-text-splitters>=1.1.3",
+    "pypdf>=7.1.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+hr-rag-agent = "hr_rag_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"

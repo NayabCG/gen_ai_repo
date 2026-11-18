@@ -43,7 +43,7 @@ tools=[
     ]
 # 3. create model
 model=ChatOpenAI(
-        model='gpt-4.1-nano',
+        model='gpt-5.5',
         temperature=0,
         api_key=os.getenv('OPENAI_API_KEY')
     )
@@ -55,15 +55,14 @@ model_with_tools=model.bind_tools(
 tool_map={
     tool.name:tool for tool in tools
 }
+print('Tool Map:',tool_map)
 # 6. Tool Calling Loop
 messages=[
     {
         'role':'user',
         'content':(
             'Calculate the total cost of '
-            '5 items at 1000 each and '
-            'then calculate a 10% discount '
-            'finally show the Total amount after discount'
+            '5 items at 1000 each '
         )
     }
 ]

@@ -1,0 +1,25 @@
+New Employee Onboarding Procedure
+
+Document ID: OPS-SOP-002 | Version: 1.1 | Effective date: 1 June 2026
+Company: BluePeak Technologies Pvt. Ltd. (fictional training company)
+
+1. Objective
+This procedure provides a consistent onboarding experience for new employees from offer acceptance through the first 30 days.
+
+2. Before the joining date
+Talent Acquisition confirms the signed offer, joining date and role. HR requests identity, address, tax and bank details through the approved employee portal. The hiring manager submits a role-based access request at least three working days before joining. IT prepares a managed laptop, required accessories and standard software.
+
+3. Day 1 activities
+HR verifies original documents where legally required, explains attendance and leave processes, shares the employee handbook and completes payroll registration. IT issues the laptop and records the asset tag against the employee ID. The employee must acknowledge the IT Security Policy and complete MFA setup. The manager introduces the team, role expectations and immediate priorities.
+
+4. First week
+The manager prepares a 30-day learning plan and assigns a buddy. The employee completes mandatory security, privacy, workplace conduct and safety training within five working days. System access is checked against the employee's role. Unneeded access must be removed.
+
+5. First 30 days
+The manager conducts a check-in by the end of week two and a formal 30-day review. The review covers role clarity, training progress, access or equipment issues, objectives and support required. HR collects onboarding feedback.
+
+6. Responsibilities
+HR owns joining formalities, policy orientation and employee records. IT owns device preparation, account provisioning and access controls. The manager owns role clarity, team introduction, learning plan and review meetings. The employee owns timely submission of accurate information and completion of assigned training.
+
+7. Delays and exceptions
+If a device or critical account is unavailable on the joining date, IT must provide a documented workaround and target resolution date. Any exception to mandatory training requires HR approval and a revised completion date.

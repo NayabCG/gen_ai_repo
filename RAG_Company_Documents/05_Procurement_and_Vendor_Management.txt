@@ -1,0 +1,31 @@
+Procurement and Vendor Management Policy
+
+Document ID: PROC-POL-003 | Version: 1.0 | Effective date: 1 August 2026
+Company: BluePeak Technologies Pvt. Ltd. (fictional training company)
+
+1. Purpose
+This policy sets minimum controls for purchasing goods and services and engaging external vendors.
+
+2. Purchase requests
+The requesting team raises a purchase request before making a commitment. It must include business justification, specifications, quantity, delivery date, budget code and estimated total cost. Splitting purchases to avoid approval thresholds is prohibited.
+
+3. Quotations and approval thresholds
+Below INR 25,000: one written quotation and manager approval.
+INR 25,000 to INR 1,00,000: at least two comparable quotations and department-head approval.
+Above INR 1,00,000: at least three comparable quotations, Finance review and approval from the relevant business head.
+Sole-source purchases require a written justification and Finance Controller approval.
+
+4. Vendor due diligence
+Before onboarding, Procurement collects legal business name, tax registration details, bank verification, service description and references where appropriate. Vendors handling company or customer data must complete the security and privacy assessment before receiving access. A signed contract and confidentiality terms are required before work begins.
+
+5. Purchase orders and receipt
+Procurement issues a purchase order after approval. Employees must not instruct a vendor to begin work before the purchase order is issued, except for an approved emergency. The receiving team confirms quantity and quality against the purchase order and records acceptance.
+
+6. Invoice processing
+Invoices must reference the purchase order and include itemized charges, tax details and bank information matching the verified vendor record. Finance performs a three-way match between purchase order, receipt confirmation and invoice before payment. Disputes are returned to the requester and Procurement for resolution.
+
+7. Conflicts of interest
+Employees must disclose personal, family or financial relationships with a prospective vendor. Employees involved in vendor selection must not accept gifts, commissions or personal benefits. Any exception requires written approval from Compliance.
+
+8. Contract renewal and vendor performance
+The business owner reviews vendor performance at least annually and 60 days before contract renewal. Reviews consider service quality, delivery, security, cost and support. Vendor access must be removed when the engagement ends.
