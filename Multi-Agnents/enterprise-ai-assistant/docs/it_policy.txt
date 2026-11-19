@@ -1,0 +1,21 @@
+ABC Technologies - IT Support Policy
+
+1. Password Reset
+
+Employees should use the company
+login portal to reset passwords.
+
+2. Account Lockout
+
+Employees should contact the IT
+helpdesk if their account is locked.
+
+3. Laptop Support
+
+Hardware-related issues should be
+reported through the IT support portal.
+
+4. Software Installation
+
+Employees must obtain IT approval
+before installing restricted software.
